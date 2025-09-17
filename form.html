@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> REGISTRATION FORM </title>
+</head>
+     <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .radio-group, .checkbox-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    button {
+      cursor: pointer;
+    }
+    body {
+            background-color: rgba(60, 63, 218, 0.753);
+        }
+        </style>
+<body> 
+    <form action="#" method="post">
+    <h2> REGISTRATION FORM </h2>
+    <!-- Textbox -->
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <!-- Number -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="1" max="100">
+
+    <!-- Date -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+    </div>
+
+
+     <!-- Checkboxes -->
+    <label>Hobbies:</label>
+    <div class="checkbox-group">
+      <input type="checkbox" id="drawing" name="hobbies" value="Drawing">
+      <label for="reading">Drawing</label>
+      <input type="checkbox" id="sports" name="hobbies" value="Sports">
+      <label for="sports">Sports</label>
+      <input type="checkbox" id="music" name="hobbies" value="Music">
+      <label for="music">Music</label>
+    </div>
+
+    <!-- Dropdown -->
+     Which country are you from?
+    <select id="country" name="country">
+      <option value="">--Select--</option>
+      <option value="Kenya">Kenya</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="India">China</option>
+    </select>
+
+    <!--Dropdown-->
+    <label for="course">Course</label>
+    <select id="course" name="course">
+        <option value="Computer Science">Computer Science  </option>
+        <option value="Engineeering"> Engineering  </option>
+        <option value=" Business"> Business </option>
+        <option value="Arts"> Arts </option>
+    </select>
+
+
+    <!-- File Upload -->
+    <label for="file">Upload Profile Picture:</label>
+    <input type="file" id="file" name="file">
+
+    <!--URL-->
+    <label for="Website"> Personal Website: </label>
+    <input type="url" id="website" name="website">
+
+    <!-- Range -->
+    <label for="satisfaction">Satisfaction (1-10):</label>
+    <input type="range" id="satisfaction" name="satisfaction" min="1" max="10">
+
+    <!--Telephone-->
+    <label for="Phone"> Phone Number: </label>
+    <input types="tel" id="phone" name="phone">
+
+    <!-- Textarea -->
+    <label for="bio">Short Bio:</label>
+    <textarea id="bio" name="bio" rows="4"></textarea>
+    
+
+    <!-- Hidden -->
+    <input type="hidden" name="userid" value="12345">
+
+    <!-- Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <th> <b> @Miles.T </b></th>
+</body>
+</html>
